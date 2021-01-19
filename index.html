@@ -8,6 +8,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 		<meta name="mobile-web-app-capable" content="yes" />
+		<meta property="og:image" content="preview.jpg">
 		<style type="text/css" title="Default">
 			/* fullscreen */
 			html {
@@ -47,10 +48,126 @@
 			// add the skin object
 			skin=new pano2vrSkin(pano);
 			// load the configuration
-		
-			window.addEventListener("load", function() {
-				pano.readConfigUrlAsync("pano.xml");
-			});
+			panorama='<?xml version="1.0" encoding="UTF-8"?>';
+			panorama+='<tour start="node1" appversion="6.1.9" apprev="17983">';
+			panorama+='  <panorama id="node1" hideabout="1">';
+			panorama+='    <input leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="7680" overlap="1" levelingroll="0" cylinder="1" height="4320" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400" flat="1">';
+			panorama+='      <level predecode="0" width="7680" height="4320" preload="0"/>';
+			panorama+='      <level predecode="0" width="3840" height="2160" preload="0"/>';
+			panorama+='      <level predecode="0" width="1920" height="1080" preload="0"/>';
+			panorama+='      <level predecode="0" width="960" height="540" preload="0"/>';
+			panorama+='      <level predecode="1" width="480" height="270" preload="1"/>';
+			panorama+='      <preview color="0x808080"/>';
+			panorama+='    </input>';
+			panorama+='    <view pannorth="0" fovmode="0">';
+			panorama+='      <start fov="78.7609" projection="4" pan="2.38366" tilt="0"/>';
+			panorama+='      <flyin fov="170" projection="9" pan="0" tilt="-90"/>';
+			panorama+='      <min fovpixel="2" pan="0" tilt="-90"/>';
+			panorama+='      <max fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" pan="360" tilt="90"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata datetime="1/19/2021 10:34 AM" source="" comment="" info="" copyright="" nodeid="node1" title="Master Plan" latitude="" tags="vista" heading="0" longitude="" author="" customnodeid="vista1" description=""/>';
+			panorama+='    <hotspots width="180" height="20" wordwrap="1">';
+			panorama+='      <label border="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" textcolor="0x000000" background="1" height="20" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>';
+			panorama+='      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point01" url="images/Torres-de-Apts-3.jpg" fov="10" distance3D="200.026" pan="-22.81" tilt="13.43" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point02" url="images/Area-de-Pisicna-2.jpg" fov="10" distance3D="200.026" pan="11.46" tilt="-6.12" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point03" url="images/Centro-Comercial.jpg" fov="10" distance3D="200.026" pan="35.19" tilt="35.43" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/btn_home.png" customimageheight="40" skinid="ht_node" customimagewidth="40" title="Apt T&#237;ipico" id="Point04" url="{node4}" fov="10" distance3D="228.601" pan="-22.98" tilt="-7.1" description="" target="" use3D="0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" zoomfov="20" type="crossdissolve" softedge="0" blendtime="1"/>';
+			panorama+='    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>';
+			panorama+='    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" hideabout="1" rubberband="0" simulatemass="1" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1" sensitivity="8" invertwheel="0"/>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node4" hideabout="1">';
+			panorama+='    <input leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" overlap="1" levelingroll="0" height="2000" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400">';
+			panorama+='      <level predecode="0" width="2000" height="2000" preload="0"/>';
+			panorama+='      <level predecode="0" width="1000" height="1000" preload="0"/>';
+			panorama+='      <level predecode="1" width="500" height="500" preload="1"/>';
+			panorama+='      <preview strip="1" color="0x808080"/>';
+			panorama+='    </input>';
+			panorama+='    <view pannorth="0" fovmode="0">';
+			panorama+='      <start fov="70" projection="4" pan="0" tilt="0"/>';
+			panorama+='      <flyin fov="170" projection="9" pan="0" tilt="-90"/>';
+			panorama+='      <min fovpixel="2" pan="0" tilt="-90"/>';
+			panorama+='      <max fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" pan="360" tilt="90"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata datetime="1/4/2021 7:19 PM" source="" comment="" info="" copyright="" nodeid="node4" title="Apt T&#237;ipico" latitude="" tags="360" heading="0" longitude="" author="" customnodeid="" description=""/>';
+			panorama+='    <hotspots width="180" height="20" wordwrap="1">';
+			panorama+='      <label border="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" textcolor="0x000000" background="1" height="20" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>';
+			panorama+='      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>';
+			panorama+='      <hotspot customimage="media/floorplan.png" customimageheight="40" skinid="ht_image" customimagewidth="40" title="" id="Point01" url="images/Distribucion-Axonomerico.jpg" fov="10" distance3D="228.601" pan="-72.49" tilt="-5.49" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/Icono.png" customimageheight="35" skinid="ht_node" customimagewidth="35" title="Master Plan" id="Point02" url="{node1}" fov="10" distance3D="200.026" pan="-134.15" tilt="4.66" description="" target="" use3D="0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" zoomfov="20" type="crossdissolve" softedge="0" blendtime="1"/>';
+			panorama+='    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>';
+			panorama+='    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" hideabout="1" rubberband="0" simulatemass="1" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1" sensitivity="8" invertwheel="0"/>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node2" hideabout="1">';
+			panorama+='    <input leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3840" overlap="1" levelingroll="0" cylinder="1" height="2160" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400" flat="1">';
+			panorama+='      <level predecode="0" width="3840" height="2160" preload="0"/>';
+			panorama+='      <level predecode="0" width="1920" height="1080" preload="0"/>';
+			panorama+='      <level predecode="0" width="960" height="540" preload="0"/>';
+			panorama+='      <level predecode="1" width="480" height="270" preload="1"/>';
+			panorama+='      <preview color="0x808080"/>';
+			panorama+='    </input>';
+			panorama+='    <view pannorth="0" fovmode="0">';
+			panorama+='      <start fov="100" projection="4" pan="9.5106" tilt="0"/>';
+			panorama+='      <flyin fov="170" projection="9" pan="0" tilt="-90"/>';
+			panorama+='      <min fovpixel="2" pan="0" tilt="-90"/>';
+			panorama+='      <max fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" pan="360" tilt="90"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata datetime="1/19/2021 9:49 AM" source="" comment="" info="" copyright="" nodeid="node2" title="Regi&#243;n de Jaco" latitude="" tags="vista" heading="0" longitude="" author="" customnodeid="vista2" description=""/>';
+			panorama+='    <hotspots width="180" height="20" wordwrap="1">';
+			panorama+='      <label border="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" textcolor="0x000000" background="1" height="20" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>';
+			panorama+='      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>';
+			panorama+='      <hotspot customimage="media/Logo.png" customimageheight="100" skinid="ht_node" customimagewidth="100" title="Quebrada Bonita" id="Point01" url="{node3}" fov="10" distance3D="571.503" pan="7.23" tilt="3.52" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/ruta 34.png" customimageheight="25" skinid="ht_info" customimagewidth="25" title="" id="Point08" url="" fov="10" distance3D="142.876" pan="-18.91" tilt="21.2" description="San Jos&#233; a 1 hr 39 min (97.2 km) via Carretera Pac&#237;fica Fern&#225;ndez Oreamuno/Costanera Sur/Ruta 34, Autopista Jos&#233; Mar&#237;a Castro Madriz." target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point02" url="images/marriot.jpg" fov="10" distance3D="200.026" pan="56.49" tilt="12.44" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point03" url="images/Surfer-at-Playa-Hermosa-Garabito-Jaco-Puntarenas-Costa-Rica-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="-86.15" tilt="-41.24" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point04" url="images/Surfing_Lessons_lg-gigapixel-scale-2_00x.JPG" fov="10" distance3D="200.026" pan="-32.2" tilt="-9.23" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point05" url="images/costa-rica-jaco-hotels-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="-56.16" tilt="-6.22" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point06" url="images/Ciudad-Volcanes-y-Playa-Jaco-1-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="-9.16" tilt="-0.7" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point07" url="images/automercado-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="36.22" tilt="47.24" description="" target="" use3D="0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" zoomfov="20" type="crossdissolve" softedge="0" blendtime="1"/>';
+			panorama+='    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>';
+			panorama+='    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" hideabout="1" rubberband="0" simulatemass="1" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1" sensitivity="8" invertwheel="0"/>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node3" hideabout="1">';
+			panorama+='    <input leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3840" overlap="1" levelingroll="0" cylinder="1" height="2160" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400" flat="1">';
+			panorama+='      <level predecode="0" width="3840" height="2160" preload="0"/>';
+			panorama+='      <level predecode="0" width="1920" height="1080" preload="0"/>';
+			panorama+='      <level predecode="0" width="960" height="540" preload="0"/>';
+			panorama+='      <level predecode="1" width="480" height="270" preload="1"/>';
+			panorama+='      <preview color="0x808080"/>';
+			panorama+='    </input>';
+			panorama+='    <view pannorth="0" fovmode="0">';
+			panorama+='      <start fov="100" projection="4" pan="0" tilt="0"/>';
+			panorama+='      <flyin fov="170" projection="9" pan="0" tilt="-90"/>';
+			panorama+='      <min fovpixel="2" pan="0" tilt="-90"/>';
+			panorama+='      <max fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" pan="360" tilt="90"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata datetime="1/19/2021 9:50 AM" source="" comment="" info="" copyright="" nodeid="node3" title="Quebrada Bonita" latitude="" tags="vista" heading="0" longitude="" author="" customnodeid="vista3" description=""/>';
+			panorama+='    <hotspots width="180" height="20" wordwrap="1">';
+			panorama+='      <label border="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" textcolor="0x000000" background="1" height="20" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>';
+			panorama+='      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>';
+			panorama+='      <hotspot customimage="media/Logo.png" customimageheight="100" skinid="ht_node" customimagewidth="100" title="Master Plan" id="Point01" url="{node1}" fov="10" distance3D="571.503" pan="12.08" tilt="12.64" description="" target="" use3D="0"/>';
+			panorama+='      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point02" url="images/vista-aerea-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="54.55" tilt="46.31" description="" target="" use3D="0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" zoomfov="20" type="crossdissolve" softedge="0" blendtime="1"/>';
+			panorama+='    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>';
+			panorama+='    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" hideabout="1" rubberband="0" simulatemass="1" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1" sensitivity="8" invertwheel="0"/>';
+			panorama+='  </panorama>';
+			panorama+='  <masternode>';
+			panorama+='    <userdata datetime="" source="" comment="" info="" copyright="" nodeid="master" title="" latitude="" tags="" heading="0" longitude="" author="" customnodeid="" description=""/>';
+			panorama+='  </masternode>';
+			panorama+='</tour>';
+			panorama+='';
+			pano.readConfigString(panorama);
 		</script>
 		<noscript>
 			<p><b>Please enable Javascript!</b></p>

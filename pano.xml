@@ -1,118 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.9" start="node2" apprev="17983">
-  <panorama id="node2">
-    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="3840" levelbias="0.400" flat="1" levelbiashidpi="1.000" leveltilesize="510" overlap="1" height="2160" cylinder="1" levelingroll="0">
-      <level width="3840" preload="0" predecode="0" height="2160"/>
-      <level width="1920" preload="0" predecode="0" height="1080"/>
-      <level width="960" preload="0" predecode="0" height="540"/>
-      <level width="480" preload="1" predecode="1" height="270"/>
+<tour start="node1" appversion="6.1.9" apprev="17983">
+  <panorama id="node1" hideabout="1">
+    <input leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="7680" overlap="1" levelingroll="0" cylinder="1" height="4320" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400" flat="1">
+      <level predecode="0" width="7680" height="4320" preload="0"/>
+      <level predecode="0" width="3840" height="2160" preload="0"/>
+      <level predecode="0" width="1920" height="1080" preload="0"/>
+      <level predecode="0" width="960" height="540" preload="0"/>
+      <level predecode="1" width="480" height="270" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="100" tilt="0" pan="9.5106" projection="4"/>
-      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" pan="360"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="78.7609" projection="4" pan="2.38366" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" pan="360" tilt="90"/>
     </view>
-    <userdata longitude="" comment="" heading="0" copyright="" latitude="" source="" author="" description="" title="" datetime="1/19/2021 9:49 AM" info="" nodeid="node2" tags="" customnodeid=""/>
+    <userdata datetime="1/19/2021 10:34 AM" source="" comment="" info="" copyright="" nodeid="node1" title="Master Plan" latitude="" tags="vista" heading="0" longitude="" author="" customnodeid="vista1" description=""/>
     <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" borderalpha="1" width="180" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" wordwrap="1" backgroundalpha="1" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="100" customimage="media/Logo.png" fov="10" customimagewidth="100" skinid="ht_node" url="{node3}" description="" tilt="3.52" title="" use3D="0" pan="7.23" id="Point01" target="" distance3D="571.503"/>
-      <hotspot customimageheight="25" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="25" skinid="ht_image" url="images/automercado.jpg" description="" tilt="45.85" title="" use3D="0" pan="35.83" id="Point02" target="" distance3D="142.876"/>
-      <hotspot customimageheight="25" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="25" skinid="ht_image" url="images/marriot.jpg" description="" tilt="15.67" title="" use3D="0" pan="56.11" id="Point03" target="" distance3D="142.876"/>
-      <hotspot customimageheight="25" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="25" skinid="ht_image" url="images/Surfing_Lessons_lg.JPG" description="" tilt="-9.45" title="" use3D="0" pan="-33.06" id="Point04" target="" distance3D="142.876"/>
-      <hotspot customimageheight="25" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="25" skinid="ht_image" url="images/Surfer-at-Playa-Hermosa-Garabito-Jaco-Puntarenas-Costa-Rica.jpg" description="" tilt="-36.99" title="" use3D="0" pan="-86.62" id="Point05" target="" distance3D="142.876"/>
-      <hotspot customimageheight="25" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="25" skinid="ht_image" url="images/costa-rica-jaco-hotels.jpg" description="" tilt="-6.91" title="" use3D="0" pan="-57.72" id="Point06" target="" distance3D="142.876"/>
-      <hotspot customimageheight="25" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="25" skinid="ht_image" url="images/Ciudad-Volcanes-y-Playa-Jaco-1.png" description="" tilt="2.76" title="" use3D="0" pan="-9.56" id="Point07" target="" distance3D="142.876"/>
-      <hotspot customimageheight="25" customimage="media/ruta 34.png" fov="10" customimagewidth="25" skinid="ht_info" url="" description="1 hr 39 min (97.2 km) via Carretera Pacífica Fernández Oreamuno/Costanera Sur/Ruta 34, Autopista José María Castro Madriz." tilt="21.2" title="" use3D="0" pan="-18.91" id="Point08" target="" distance3D="142.876"/>
+      <label border="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" textcolor="0x000000" background="1" height="20" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point01" url="images/Torres-de-Apts-3.jpg" fov="10" distance3D="200.026" pan="-22.81" tilt="13.43" description="" target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point02" url="images/Area-de-Pisicna-2.jpg" fov="10" distance3D="200.026" pan="11.46" tilt="-6.12" description="" target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point03" url="images/Centro-Comercial.jpg" fov="10" distance3D="200.026" pan="35.19" tilt="35.43" description="" target="" use3D="0"/>
+      <hotspot customimage="media/btn_home.png" customimageheight="40" skinid="ht_node" customimagewidth="40" title="Apt Tíipico" id="Point04" url="{node4}" fov="10" distance3D="228.601" pan="-22.98" tilt="-7.1" description="" target="" use3D="0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" enabled="1" zoomoutpause="1" zoomspeed="2" softedge="0" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" zoomfov="20" type="crossdissolve" softedge="0" blendtime="1"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" contextprojections="0" sensitivity="8" invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboard="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" hideabout="0" lockedmouse="0" dblclickfullscreen="0"/>
+    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" hideabout="1" rubberband="0" simulatemass="1" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1" sensitivity="8" invertwheel="0"/>
   </panorama>
-  <panorama id="node3">
-    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="3840" levelbias="0.400" flat="1" levelbiashidpi="1.000" leveltilesize="510" overlap="1" height="2160" cylinder="1" levelingroll="0">
-      <level width="3840" preload="0" predecode="0" height="2160"/>
-      <level width="1920" preload="0" predecode="0" height="1080"/>
-      <level width="960" preload="0" predecode="0" height="540"/>
-      <level width="480" preload="1" predecode="1" height="270"/>
-      <preview color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="100" tilt="0" pan="0" projection="4"/>
-      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" pan="360"/>
-    </view>
-    <userdata longitude="" comment="" heading="0" copyright="" latitude="" source="" author="" description="" title="" datetime="1/19/2021 9:50 AM" info="" nodeid="node3" tags="vista" customnodeid=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" borderalpha="1" width="180" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" wordwrap="1" backgroundalpha="1" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="100" customimage="media/Logo.png" fov="10" customimagewidth="100" skinid="ht_node" url="{node1}" description="" tilt="12.64" title="" use3D="0" pan="12.08" id="Point01" target="" distance3D="571.503"/>
-      <hotspot customimageheight="25" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="25" skinid="ht_image" url="images/vista aerea.jpg" description="" tilt="46.08" title="" use3D="0" pan="49.29" id="Point02" target="" distance3D="142.876"/>
-    </hotspots>
-    <media/>
-    <transition type="crossdissolve" enabled="1" zoomoutpause="1" zoomspeed="2" softedge="0" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" contextprojections="0" sensitivity="8" invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboard="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" hideabout="0" lockedmouse="0" dblclickfullscreen="0"/>
-  </panorama>
-  <panorama id="node1">
-    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="7680" levelbias="0.400" flat="1" levelbiashidpi="1.000" leveltilesize="510" overlap="1" height="4320" cylinder="1" levelingroll="0">
-      <level width="7680" preload="0" predecode="0" height="4320"/>
-      <level width="3840" preload="0" predecode="0" height="2160"/>
-      <level width="1920" preload="0" predecode="0" height="1080"/>
-      <level width="960" preload="0" predecode="0" height="540"/>
-      <level width="480" preload="1" predecode="1" height="270"/>
-      <preview color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="78.7609" tilt="0" pan="2.38366" projection="4"/>
-      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" pan="360"/>
-    </view>
-    <userdata longitude="" comment="" heading="0" copyright="" latitude="" source="" author="" description="" title="" datetime="1/19/2021 10:34 AM" info="" nodeid="node1" tags="vista" customnodeid=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" borderalpha="1" width="180" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" wordwrap="1" backgroundalpha="1" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="35" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="35" skinid="ht_image" url="images/Torres-de-Apts-3.jpg" description="" tilt="13.43" title="" use3D="0" pan="-22.81" id="Point01" target="" distance3D="200.026"/>
-      <hotspot customimageheight="35" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="35" skinid="ht_image" url="images/Area-de-Pisicna-2.jpg" description="" tilt="-6.12" title="" use3D="0" pan="11.46" id="Point02" target="" distance3D="200.026"/>
-      <hotspot customimageheight="35" customimage="media/slr-camera-icon-18-256.png" fov="10" customimagewidth="35" skinid="ht_image" url="images/Centro-Comercial.jpg" description="" tilt="35.43" title="" use3D="0" pan="35.19" id="Point03" target="" distance3D="200.026"/>
-      <hotspot customimageheight="40" customimage="media/btn_home.png" fov="10" customimagewidth="40" skinid="ht_node" url="{node4}" description="" tilt="-7.1" title="" use3D="0" pan="-22.98" id="Point04" target="" distance3D="228.601"/>
-    </hotspots>
-    <media/>
-    <transition type="crossdissolve" enabled="1" zoomoutpause="1" zoomspeed="2" softedge="0" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" contextprojections="0" sensitivity="8" invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboard="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" hideabout="0" lockedmouse="0" dblclickfullscreen="0"/>
-  </panorama>
-  <panorama id="node4">
-    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2000" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" overlap="1" height="2000" levelingroll="0">
-      <level width="2000" preload="0" predecode="0" height="2000"/>
-      <level width="1000" preload="0" predecode="0" height="1000"/>
-      <level width="500" preload="1" predecode="1" height="500"/>
+  <panorama id="node4" hideabout="1">
+    <input leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" overlap="1" levelingroll="0" height="2000" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400">
+      <level predecode="0" width="2000" height="2000" preload="0"/>
+      <level predecode="0" width="1000" height="1000" preload="0"/>
+      <level predecode="1" width="500" height="500" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
-      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" pan="360"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" pan="360" tilt="90"/>
     </view>
-    <userdata longitude="" comment="" heading="0" copyright="" latitude="" source="" author="" description="" title="" datetime="1/4/2021 7:19 PM" info="" nodeid="node4" tags="Pano2VR6" customnodeid=""/>
+    <userdata datetime="1/4/2021 7:19 PM" source="" comment="" info="" copyright="" nodeid="node4" title="Apt Tíipico" latitude="" tags="360" heading="0" longitude="" author="" customnodeid="" description=""/>
     <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" borderalpha="1" width="180" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" borderradius="1" background="1" height="20" wordwrap="1" backgroundalpha="1" border="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="40" customimage="media/floorplan.png" fov="10" customimagewidth="40" skinid="ht_image" url="images/Distribucion-Axonomerico.jpg" description="" tilt="-5.49" title="" use3D="0" pan="-72.49" id="Point01" target="" distance3D="228.601"/>
-      <hotspot skinid="ht_node" url="{node1}" description="" tilt="4.66" title="" pan="-134.15" id="Point02" target=""/>
+      <label border="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" textcolor="0x000000" background="1" height="20" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot customimage="media/floorplan.png" customimageheight="40" skinid="ht_image" customimagewidth="40" title="" id="Point01" url="images/Distribucion-Axonomerico.jpg" fov="10" distance3D="228.601" pan="-72.49" tilt="-5.49" description="" target="" use3D="0"/>
+      <hotspot customimage="media/Icono.png" customimageheight="35" skinid="ht_node" customimagewidth="35" title="Master Plan" id="Point02" url="{node1}" fov="10" distance3D="200.026" pan="-134.15" tilt="4.66" description="" target="" use3D="0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" enabled="1" zoomoutpause="1" zoomspeed="2" softedge="0" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" zoomfov="20" type="crossdissolve" softedge="0" blendtime="1"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" contextprojections="0" sensitivity="8" invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboard="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" hideabout="0" lockedmouse="0" dblclickfullscreen="0"/>
+    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" hideabout="1" rubberband="0" simulatemass="1" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1" sensitivity="8" invertwheel="0"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3840" overlap="1" levelingroll="0" cylinder="1" height="2160" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400" flat="1">
+      <level predecode="0" width="3840" height="2160" preload="0"/>
+      <level predecode="0" width="1920" height="1080" preload="0"/>
+      <level predecode="0" width="960" height="540" preload="0"/>
+      <level predecode="1" width="480" height="270" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="100" projection="4" pan="9.5106" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" pan="360" tilt="90"/>
+    </view>
+    <userdata datetime="1/19/2021 9:49 AM" source="" comment="" info="" copyright="" nodeid="node2" title="Región de Jaco" latitude="" tags="vista" heading="0" longitude="" author="" customnodeid="vista2" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label border="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" textcolor="0x000000" background="1" height="20" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot customimage="media/Logo.png" customimageheight="100" skinid="ht_node" customimagewidth="100" title="Quebrada Bonita" id="Point01" url="{node3}" fov="10" distance3D="571.503" pan="7.23" tilt="3.52" description="" target="" use3D="0"/>
+      <hotspot customimage="media/ruta 34.png" customimageheight="25" skinid="ht_info" customimagewidth="25" title="" id="Point08" url="" fov="10" distance3D="142.876" pan="-18.91" tilt="21.2" description="San José a 1 hr 39 min (97.2 km) via Carretera Pacífica Fernández Oreamuno/Costanera Sur/Ruta 34, Autopista José María Castro Madriz." target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point02" url="images/marriot.jpg" fov="10" distance3D="200.026" pan="56.49" tilt="12.44" description="" target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point03" url="images/Surfer-at-Playa-Hermosa-Garabito-Jaco-Puntarenas-Costa-Rica-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="-86.15" tilt="-41.24" description="" target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point04" url="images/Surfing_Lessons_lg-gigapixel-scale-2_00x.JPG" fov="10" distance3D="200.026" pan="-32.2" tilt="-9.23" description="" target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point05" url="images/costa-rica-jaco-hotels-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="-56.16" tilt="-6.22" description="" target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point06" url="images/Ciudad-Volcanes-y-Playa-Jaco-1-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="-9.16" tilt="-0.7" description="" target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point07" url="images/automercado-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="36.22" tilt="47.24" description="" target="" use3D="0"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" zoomfov="20" type="crossdissolve" softedge="0" blendtime="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" hideabout="1" rubberband="0" simulatemass="1" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1" sensitivity="8" invertwheel="0"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3840" overlap="1" levelingroll="0" cylinder="1" height="2160" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400" flat="1">
+      <level predecode="0" width="3840" height="2160" preload="0"/>
+      <level predecode="0" width="1920" height="1080" preload="0"/>
+      <level predecode="0" width="960" height="540" preload="0"/>
+      <level predecode="1" width="480" height="270" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovfisheye="360" fov="120" scaletofit="1" fovstereographic="270" pan="360" tilt="90"/>
+    </view>
+    <userdata datetime="1/19/2021 9:50 AM" source="" comment="" info="" copyright="" nodeid="node3" title="Quebrada Bonita" latitude="" tags="vista" heading="0" longitude="" author="" customnodeid="vista3" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label border="1" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" textcolor="0x000000" background="1" height="20" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot customimage="media/Logo.png" customimageheight="100" skinid="ht_node" customimagewidth="100" title="Master Plan" id="Point01" url="{node1}" fov="10" distance3D="571.503" pan="12.08" tilt="12.64" description="" target="" use3D="0"/>
+      <hotspot customimage="media/slr-camera-icon-18-256.png" customimageheight="35" skinid="ht_image" customimagewidth="35" title="" id="Point02" url="images/vista-aerea-gigapixel-scale-2_00x.jpg" fov="10" distance3D="200.026" pan="54.55" tilt="46.31" description="" target="" use3D="0"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" zoomfov="20" type="crossdissolve" softedge="0" blendtime="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" hideabout="1" rubberband="0" simulatemass="1" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1" sensitivity="8" invertwheel="0"/>
   </panorama>
   <masternode>
-    <userdata longitude="" comment="" heading="0" copyright="" latitude="" source="" author="" description="" title="" datetime="" info="" nodeid="master" tags="" customnodeid=""/>
+    <userdata datetime="" source="" comment="" info="" copyright="" nodeid="master" title="" latitude="" tags="" heading="0" longitude="" author="" customnodeid="" description=""/>
   </masternode>
 </tour>
